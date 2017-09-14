@@ -17,8 +17,10 @@ Now run
 
     python -m script
     
-from root project directory. 
+from root project directory.  
 
 Logically it is the same: run module named `script` from some package, which is not root one.
 
-Unfortunately, Python doesn't run `__init__py` this time
+Unfortunately, Python doesn't run `__init__py` this time and you will see just
+
+    script
